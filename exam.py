@@ -95,10 +95,10 @@ if "submitted" not in st.session_state: st.session_state.submitted = False
 # 1. Sidebar မှာ Logo ပေါ်စေရန် 
 with st.sidebar:
     try:
-        st.image("pu-logo.png", use_container_width=True)
+        st.image("pu-logo.jpg", use_container_width=True)
     except Exception:
         try:
-            st.image("pu-logo.png", use_container_width=True)
+            st.image("pu-logo.jpg", use_container_width=True)
         except Exception:
             pass
     st.markdown("<h4 style='text-align: center;'>Pyay University</h4>", unsafe_allow_html=True)
