@@ -79,7 +79,17 @@ def save_result_to_sheet(username, score):
 
 # --- APP CONFIGURATION ---
 st.set_page_config(page_title="Secure Exam Terminal", page_icon="🔐", layout="centered")
-
+st.markdown(
+    """
+    <style>
+    /* Username နဲ့ Password Input box များကို Width သတ်မှတ်ရန် */
+    div[data-testid="stTextInput"] {
+        max-width: 350px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 if "logged_in" not in st.session_state: st.session_state.logged_in = False
 if "user_role" not in st.session_state: st.session_state.user_role = None
 if "username" not in st.session_state: st.session_state.username = None
