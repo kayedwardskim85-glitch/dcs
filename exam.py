@@ -12,7 +12,7 @@ CSV_RESULTS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tq
 CSV_QUESTIONS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Sheet2"
 CSV_USERS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Sheet3"
 
-WEB_APP_URL = "https://script.google.com/macros/s/AKfycby5Sf6tt8gY2iim_BCl1I5M-5DG1tKQRF_hZXdMQvCo8jMzHHNp4fnH96Mvg8sp2iR4DA/exec"
+WEB_APP_URL = "https://script.google.com/macros/s/AKfycbw_a6HsMWiE0L3dmdaTWKVSMa3Vc_VYdCdfYH60w2J8PuQpxjaUF2T7lpJcEhq6j3QmHg/exec"
 
 EXAM_DURATION_MINUTES = 5
 
