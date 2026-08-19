@@ -13,7 +13,6 @@ CSV_QUESTIONS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?
 CSV_USERS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Sheet3"
 
 WEB_APP_URL = "https://script.google.com/macros/s/AKfycby5Sf6tt8gY2iim_BCl1I5M-5DG1tKQRF_hZXdMQvCo8jMzHHNp4fnH96Mvg8sp2iR4DA/exec"
-
 EXAM_DURATION_MINUTES = 5
 
 def get_mm_now():
